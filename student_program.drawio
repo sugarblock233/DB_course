@@ -1,9 +1,30 @@
-<mxfile host="app.diagrams.net" modified="2023-12-05T08:37:03.908Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="22.1.5" etag="AB-dVtowXwhEp95-XdQt" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-05T10:40:48.640Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="5FyrZ9W-Yk6Ulb42l3aU" version="22.1.5" type="github">
   <diagram name="第 1 页" id="Ej5v6YFdahWCTKdKZ6kj">
-    <mxGraphModel>
+    <mxGraphModel dx="600" dy="310" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="dSRhwx5rGu7l53_wp7Jh-2" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;StudyPrograms&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;Program_id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;program_name&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;faculty_name&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="90" y="200" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="dSRhwx5rGu7l53_wp7Jh-3" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;Students&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;student_id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK&lt;/td&gt;&lt;td&gt;program_id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;birthday&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="410" y="180" width="180" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="dSRhwx5rGu7l53_wp7Jh-8" value="prof_in_charge" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="270" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dSRhwx5rGu7l53_wp7Jh-9" value="lastname" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dSRhwx5rGu7l53_wp7Jh-10" value="address" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="270" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dSRhwx5rGu7l53_wp7Jh-11" value="" style="html=1;verticalAlign=bottom;endArrow=ERzeroToMany;rounded=0;exitX=1.012;exitY=0.538;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.007;entryY=0.531;entryDx=0;entryDy=0;entryPerimeter=0;elbow=vertical;edgeStyle=orthogonalEdgeStyle;startArrow=ERmandOne;startFill=0;endFill=0;" edge="1" parent="1" source="dSRhwx5rGu7l53_wp7Jh-2" target="dSRhwx5rGu7l53_wp7Jh-3">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="300" y="264.71" as="sourcePoint" />
+            <mxPoint x="380" y="264.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
